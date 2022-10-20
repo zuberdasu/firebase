@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+}
+
+.page-header {
+  padding: 15px;
+}
+
+.page-title {
+  margin: 0;
+}
+
+.chart {
+  text-align: center;
+  /* height: 500px;
+    width: 500px; */
+}
+
+svg.nvd3-svg {
+  min-height: 500px;
+  background-color: #efefef;
+  padding: 15px;
+}
+
+.nvd3 text {
+  font: normal 16px Arial;
+}
+
+.controls {
+  padding: 15px;
+}

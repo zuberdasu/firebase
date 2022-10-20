@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.min.js"
+    ></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script
+      defer
+      src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"
+    ></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script
+      defer
+      src="https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js"
+    ></script>
+
+    <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="page-header">
+        <h1>Favourite Chocolate Bar</h1>
+      </div>
+
+      <div id="chart"><svg></svg></div>
+
+      <div id="controls" class="controls">
+        <div class="btn btn-success" id="mars">Mars</div>
+        <div class="btn btn-warning" id="snickers">Snickers</div>
+        <div class="btn btn-danger" id="twix">Twix</div>
+        <div class="btn btn-info" id="bounty">Bounty</div>
+      </div>
+    </header>
+  </body>
+</html>
